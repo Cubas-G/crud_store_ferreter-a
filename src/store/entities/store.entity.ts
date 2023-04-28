@@ -1,5 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn,OneToMany  } from "typeorm";
-import { StoreImage } from './store-image.entity';
+import { StoreImage } from "./store-image.entity";
+
 
 @Entity()
 export class Store {

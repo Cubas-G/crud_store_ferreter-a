@@ -7,8 +7,8 @@ export class StoreController {
   constructor(private readonly storeService: StoreService) {}
 
   @Post()
-  create(@Body() createstoretDto: CreateStoreDto) {
-    return this.storeService.create(createstoretDto);
+  create(@Body() createStoretDto: CreateStoreDto) {
+    return this.storeService.create(createStoretDto);
   }
 
   @Get()

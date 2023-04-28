@@ -5,8 +5,10 @@ import { StoreController } from './store.controller';
 import { StoreService } from './store.service';
 import { StoreImage } from './entities/store-image.entity';
 
+
 @Module({
   imports:[TypeOrmModule.forFeature([Store, StoreImage])],
+  
   controllers: [StoreController],
   providers: [StoreService]
 })
